@@ -1,0 +1,7 @@
+*.tmp
+*.log
+*.db
+tmp/*
+solr/*
+repository/deployment/server/*
+repository/logs/*
