@@ -9,6 +9,6 @@
     <property name="transport.jms.DestinationType">topic</property>
     <property name="transport.jms.Destination">throttleData</property>
     <property name="transport.jms.ConcurrentPublishers">allow</property>
-    <property name="transport.jms.ConnectionFactoryJNDIName">TopicConnectionFactory</property>
+    <property name="transport.jms.ConnectionFactoryJNDIName">TopicConnectionFactory2</property>
   </to>
 </eventPublisher>
