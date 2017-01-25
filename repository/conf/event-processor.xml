@@ -19,7 +19,7 @@
 <eventProcessorConfiguration>
 
     <!-- HA Mode Config -->
-    <mode name="HA" enable="false">
+    <mode name="HA" enable="true">
         <nodeType>
             <worker enable="true"/>
             <presenter enable="false"/>
