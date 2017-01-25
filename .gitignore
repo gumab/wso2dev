@@ -5,3 +5,9 @@ tmp/*
 solr/*
 repository/deployment/server/*
 repository/logs/*
+repository/components/*/configuration
+!repository/components/*/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+repository/components/dropins
+repository/components/patches
+repository/conf/solr
+wso2carbon.pid
