@@ -694,7 +694,7 @@
         The TCP port used by this member. This is the port through which other nodes will
         contact this member
          -->
-        <parameter name="localMemberPort">4001</parameter>
+        <parameter name="localMemberPort">4002</parameter>
 
         <!--
             The bind port of this member. The difference between localMemberPort & localMemberBindPort
