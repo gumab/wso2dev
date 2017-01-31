@@ -679,7 +679,7 @@
         -->
         <!-- The host name or IP address of this member -->
 
-        <parameter name="localMemberHost">192.168.56.104</parameter>
+        <parameter name="localMemberHost">localhost</parameter>
 
         <!--
             The bind adress of this member. The difference between localMemberHost & localMemberBindAddress
@@ -694,7 +694,7 @@
         The TCP port used by this member. This is the port through which other nodes will
         contact this member
          -->
-        <parameter name="localMemberPort">4000</parameter>
+        <parameter name="localMemberPort">4001</parameter>
 
         <!--
             The bind port of this member. The difference between localMemberPort & localMemberBindPort
@@ -720,12 +720,12 @@
         -->
         <members>
             <member>
-                <hostName>192.168.56.104</hostName>
-                <port>4000</port>
+                <hostName>localhost</hostName>
+                <port>4001</port>
             </member>
             <member>
-                <hostName>192.168.56.105</hostName>
-                <port>4000</port>
+                <hostName>localhost</hostName>
+                <port>4002</port>
             </member>
         </members>
 
